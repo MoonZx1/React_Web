@@ -1,6 +1,6 @@
 import fileResume from "../../assets/HW1.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowsDownToLine } from "@fortawesome/free-solid-svg-icons";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { data } from "../../contents/header";
 
 const Header = () => {
@@ -15,8 +15,8 @@ const Header = () => {
             {data.btnText}
             <span className="rotate-90 inline-block ml-2 text-sm">
               <FontAwesomeIcon
-                className="animate-bounce"
-                icon={faArrowsDownToLine}
+                className="animate-[bounce_0.7s_infinite]"
+                icon={faAnglesDown}
               />
             </span>
           </span>
