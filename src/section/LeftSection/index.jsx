@@ -1,7 +1,11 @@
+import Header from "../Header";
+import Navbar from "../Navbar";
+import Contact from "../Contact";
+
 const LeftSection = () => {
   return (
-    <div>
-      <div className="mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]">
+    <div className="px-3">
+      <div className="sticky top-14 grid gap-y-5 lg:grid-rows-[35%_40%_25%] h-[90vh]">
         <Header />
         <Navbar />
         <Contact />
